@@ -1,0 +1,18 @@
+#body1{
+    background-color: black;
+    color: rgb(0, 255, 0);
+    
+}
+.node{
+    background-color: aqua;
+    color: black;
+    border: 5px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    font-size:75px;
+}
+#MH1{
+    border: 10px;
+    border-radius: 30px;
+    border-color: blueviolet;
+}
