@@ -1,6 +1,6 @@
 let weeknow = new Date()
 
-let getweekday = weeknow.getDay()+1 
+let getweekday = weeknow.getDay()+2 
 var text =" "
 var weekday2_MH=["tin hoc",'tin học','toán ','toán','SHCN']
 var weekday3_MH=["ngoại ngữ",'công nghệ','công nghệ','vật lí','vật lí']
