@@ -1,0 +1,36 @@
+#body1{
+    background-color: rgb(83, 82, 82);
+    color: rgb(0, 255, 0);
+    
+}
+/* .node{
+    background-color: aqua;
+    color: black;
+    border: 5px;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    font-size:75px;
+}
+#MH1{
+    border: 10px;
+    border-radius: 30px;
+    border-color: blueviolet;
+} */
+#value{
+    background-color: black;
+    font-size: 25px;
+    color: blue;
+    border-radius: 50px;
+    display: block;
+    padding: 10px 20px;
+    border: 1px darkgoldenrod;
+}
+.button{
+    background-color: black;
+    color:blue;
+    display: block;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+
