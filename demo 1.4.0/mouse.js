@@ -6,19 +6,23 @@ var week = [
     [],
     [],
     [7,5,5,4,1],
-    [2,1,1,8,8]
+    [3,1,1,8,8],
+    [4,2,2,3,3],
+    [1,1,3,6,6],
+    [3,3,2,2,2],
+    [4,4,5,1,1]
 ]
+let tiet = 1
 var output = ""
 
 let getdatabeta =()=>{
-    document.getElementById('MH1').removeChild()
 
     let  check = Number(document.getElementById("value").value)
     console.log(check)
     if(check > 1){
         return check
     }if( check = 1){
-        alert(" chọn thứ mấy toa mới đưa được")
+        alert(" chọn thứ mấy tao mới biết")
     }
     
 }
@@ -29,7 +33,8 @@ let dick =(backdata)=>{
 for (i = 0; i <= week.length;i++){
     if(i == backdata){
         for(c = 0 ; c <= 4;c++)
-         output += MH[week[i][c]]+"<br>"+ '<br>'
+
+         output += `tiết ` + tiet++ +`: `+ MH[week[i][c]]+"<br>"+ '<br>'
     }
     document.getElementById('MH1').innerHTML = output
 }}
