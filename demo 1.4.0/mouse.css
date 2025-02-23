@@ -1,5 +1,5 @@
 #body1{
-    background-color: rgb(83, 82, 82);
+    background-color: rgb(0, 0, 0);
     color: rgb(0, 255, 0);
     
 }
@@ -17,23 +17,25 @@
     border-color: blueviolet;
 } */
 #value{
-    background-color: black;
+    border: 2px solid rgb(0, 4, 255);
+    background-color: rgb(87, 87, 87);
     font-size: 25px;
-    color: blue;
+    color: rgb(0, 255, 208);
     border-radius: 50px;
     display: block;
     padding: 10px 20px;
     border: 3px green;
 }
 .button{
-    background-color: black;
-    color:blue;
+    border: 2px solid rgb(0, 4, 255);
+    background-color: rgb(99, 95, 95);
+    color:rgb(0, 255, 208);
     display: block;
     border-radius: 50px;
     font-size: 25px;
 	border:green;
 }
 #use{
-    color: rgb(83, 82, 82);
+    color: rgb(0, 0, 0);
 }
 
