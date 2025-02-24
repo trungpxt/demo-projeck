@@ -33,7 +33,7 @@ for (i = 0; i <= week.length;i++){
     if(i == backdata){
         for(c = 0 ; c <= 4;c++)
 
-         output += `tiết ` + tiet +`: `+ MH[week[i][c]]+"<br>"+ '<br>'
+         output += `tiết ` + tiet++ +`: `+ MH[week[i][c]]+"<br>"+ '<br>'
     }
     document.getElementById('MH1').innerHTML = output
 }}
