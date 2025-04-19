@@ -33,7 +33,7 @@ for (i = 0; i <= week.length;i++){
     if(i == backdata){
         for(c = 0 ; c <= 4;c++)
 
-         output += `tiết ` + tiet++ +`: `+ MH[week[i][c]]+"<br>"+ '<br>'
+         output += `tiết ` + tiet +`: `+ MH[week[i][c]]+"<br>"+ '<br>'
     }
     document.getElementById('MH1').innerHTML = output
 }}
@@ -48,3 +48,11 @@ function check_weekday (){
 
     }
 }
+
+function updateTime() {
+    const now = new Date();
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    document.getElementById("time").textContent = hours + ":" + minutes;
+}
+setInterval(updateTime, 1000);
